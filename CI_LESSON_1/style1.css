@@ -1,0 +1,74 @@
+ .menu span{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: khaki;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.menu span:hover{
+    color:red;
+    background-color: black;
+}
+
+.menu-vertical span{
+    display: block;
+} 
+
+.drop-down{
+    display: none;
+}
+
+.menu span:hover .drop-down{
+    display: block;
+    position: fixed;
+}
+  
+
+
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu {
+    padding: 30px 15px;
+}
+
+.menu span {
+    display: inline-block;
+    background: brown;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+span:hover {
+    background: chartreuse;
+}
+
+.menu-vertical span {
+    display: block;
+}
+
+.menu_dropdown {
+    display: none;
+}
+
+.menu span:hover .menu_dropdown {
+    display: block;
+    position: fixed;
+}
+
+.menu_dropdown span:hover {
+    background: white;
+} */
